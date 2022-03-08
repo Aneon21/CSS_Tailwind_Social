@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Social</title>
+</head>
+
+<body class="bg-indigo-50">
+
+    <!--Navigation Bar-->
+    <nav class="bg-white h-20 justify-center items-center sticky top-0 z-10">
+        <!--logo/site text-->
+        <div class="w-4/5 h-20 m-auto flex flex-row justify-between items-center">
+            <h2 class="font-semibold text-3xl">Social</h2>
+            <!--Searchbar-->
+            <div class="text-lg flex flex-row bg-indigo-50 items-center h-12 
+            rounded-3xl w-96">
+                <ion-icon name="search-outline" class="text-2xl mx-2"></ion-icon>
+                <input type="search" class="w-80 bg-transparent" placeholder="search social">
+            </div>
+            <!--Profile section-->
+            <div class="flex flex-row items-center h-20">
+                <button class="mr-8 bg-indigo-500 px-6 py-2 rounded-3xl text-white font-bold hover:bg-indigo-600
+                active:bg-indigo-700">Create</button>
+                <div class="w-10 rounded-full overflow-hidden">
+                    <img class="aspect-square block w-full" src="images/7db5ae2303764cffb3c38e1f76210e7e_md.jpg">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main Page-->
+    <main class="relative my-8 px-8">
+
+        <div class="flex flex-row w-full justify-between">
+
+            <!--Left Panel-->
+            <div class="w-72 sticky self-start top-28">
+
+                <!--Profile Panel-->
+                <div class="flex flex-row items-center h-32 w-72 rounded-xl bg-white hover:bg-neutral-100 active:bg-neutral-200
+             cursor-pointer">
+                    <div class="w-14 rounded-full overflow-hidden ml-8">
+                        <img class="aspect-square block w-full" src="images/7db5ae2303764cffb3c38e1f76210e7e_md.jpg">
+                    </div>
+                    <div class="flex flex-col items-center mx-2 w-40">
+                        <h4 class="font-bold text-lg">Andrew</h4>
+                        <h4 class="text-gray-500">@AGarfield</h4>
+                    </div>
+                </div>
+
+                <!--Sidebar-->
+                <div class="flex flex-col w-72 bg-white my-8 rounded-xl items-center">
+                    <ul class="mt-3 mb-5">
+                        <li
+                            class="flex flex-row items-center text-xl font-semibold my-3 py-2 px-5 rounded-3xl hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer">
+                            <ion-icon class="px-3" name="home-outline"></ion-icon> Home
+                        </li>
+                        <li
+                            class="flex flex-row items-center text-xl font-semibold my-3 py-2 px-5 rounded-3xl hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer">
+                            <ion-icon class="px-3" name="compass-outline"></ion-icon> Explore
+                        </li>
+                        <li
+                            class="flex flex-row items-center text-xl font-semibold my-3 py-2 px-5 rounded-3xl hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer">
+                            <ion-icon class="px-3" name="notifications-outline"></ion-icon> Notifications
+                        </li>
+                        <li
+                            class="flex flex-row items-center text-xl font-semibold my-3 py-2 px-5 rounded-3xl hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer">
+                            <ion-icon class="px-3" name="mail-outline"></ion-icon> Messages
+                        </li>
+                        <li
+                            class="flex flex-row items-center text-xl font-semibold my-3 py-2 px-5 rounded-3xl hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer">
+                            <ion-icon class="px-3" name="bookmark-outline"></ion-icon> Bookmarks
+                        </li>
+                        <li
+                            class="flex flex-row items-center text-xl font-semibold my-3 py-2 px-5 rounded-3xl hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer">
+                            <ion-icon class="px-3" name="color-palette-outline"></ion-icon> Theme
+                        </li>
+                        <li
+                            class="flex flex-row items-center text-xl font-semibold my-3 py-2 px-5 rounded-3xl hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer">
+                            <ion-icon class="px-3" name="settings-outline"></ion-icon> Settings
+                        </li>
+                    </ul>
+                </div>
+
+                <!--Post Create Button-->
+                <div class="flex flex-col items-center w-72">
+                    <button class="bg-indigo-500 px-12 py-3 rounded-3xl text-white font-bold hover:bg-indigo-600
+                active:bg-indigo-700">Create</button>
+                </div>
+
+
+            </div>
+
+            <!--News Feed-->          
+            <div class="w-1/2 flex flex-col items-center">
+
+                <!--Post 1-->
+                <div class="w-11/12 bg-white mb-9 rounded-xl flex flex-col items-center">
+                    <div class="w-full flex flex-row items-center my-5 font-semibold">
+                        <div class="w-10 rounded-full overflow-hidden mx-5">
+                            <img class="aspect-square block w-full" src="images/7db5ae2303764cffb3c38e1f76210e7e_md.jpg">
+                        </div>
+                        Andrew Garfield
+                    </div>
+                    <img class="w-9/12" src="images/andrew post 1.jpg">
+                    <div class="w-full flex flex-row text-4xl py-5 px-5">
+                        <ion-icon class="mx-2 text-rose-500" name="heart"></ion-icon>
+                        <ion-icon class="mx-2" name="chatbubble-ellipses-outline"></ion-icon>
+                        <ion-icon class="mx-2" name="arrow-redo-outline"></ion-icon>
+                    </div>
+                </div>
+                
+                <!--Post 2-->
+                <div class="w-11/12 bg-white mb-9 rounded-xl flex flex-col items-center">
+                    <div class="w-full flex flex-row items-center my-5 font-semibold">
+                        <div class="w-10 rounded-full overflow-hidden mx-5">
+                            <img class="aspect-square block w-full" src="images/tom-holland.jpg">
+                        </div>
+                        Tom Holland
+                    </div>
+                    <img class="w-9/12" src="images/tom post 1.jpg">
+                    <div class="w-full flex flex-row text-4xl py-5 px-5">
+                        <ion-icon class="mx-2 text-rose-500" name="heart"></ion-icon>
+                        <ion-icon class="mx-2" name="chatbubble-ellipses-outline"></ion-icon>
+                        <ion-icon class="mx-2" name="arrow-redo-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <!--Post 3-->
+                <div class="w-11/12 bg-white mb-9 rounded-xl flex flex-col items-center">
+                    <div class="w-full flex flex-row items-center my-5 font-semibold">
+                        <div class="w-10 rounded-full overflow-hidden mx-5">
+                            <img class="aspect-square block w-full" src="images/emma-stone-ftr.jpg">
+                        </div>
+                        Emma Stone
+                    </div>
+                    <img class="w-9/12" src="images/emma post 1.jpg">
+                    <div class="w-full flex flex-row text-4xl py-5 px-5">
+                        <ion-icon class="mx-2 text-rose-500" name="heart"></ion-icon>
+                        <ion-icon class="mx-2" name="chatbubble-ellipses-outline"></ion-icon>
+                        <ion-icon class="mx-2" name="arrow-redo-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <!--Post 4-->
+                <div class="w-11/12 bg-white mb-9 rounded-xl flex flex-col items-center">
+                    <div class="w-full flex flex-row items-center my-5 font-semibold">
+                        <div class="w-10 rounded-full overflow-hidden mx-5">
+                            <img class="aspect-square block w-full" src="images/Elizabeth-Olsen.webp">
+                        </div>
+                        Elizabeth Olsen
+                    </div>
+                    <img class="w-9/12" src="images/elizabeth post 1.jpg">
+                    <div class="w-full flex flex-row text-4xl py-5 px-5">
+                        <ion-icon class="mx-2" name="heart-outline"></ion-icon>
+                        <ion-icon class="mx-2" name="chatbubble-ellipses-outline"></ion-icon>
+                        <ion-icon class="mx-2" name="arrow-redo-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <!--Post 5-->
+                <div class="w-11/12 bg-white mb-9 rounded-xl flex flex-col items-center">
+                    <div class="w-full flex flex-row items-center my-5 font-semibold">
+                        <div class="w-10 rounded-full overflow-hidden mx-5">
+                            <img class="aspect-square block w-full" src="images/robert.jpg">
+                        </div>
+                        Robert Pattinson
+                    </div>
+                    <img class="w-9/12" src="images/robert post 1.jpg">
+                    <div class="w-full flex flex-row text-4xl py-5 px-5">
+                        <ion-icon class="mx-2" name="heart-outline"></ion-icon>
+                        <ion-icon class="mx-2" name="chatbubble-ellipses-outline"></ion-icon>
+                        <ion-icon class="mx-2" name="arrow-redo-outline"></ion-icon>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Right Panel-->
+            <div class="w-80 sticky top-28 self-start">
+
+                <!--Messages Section-->
+                <div class="w-80 h-96 bg-white rounded-xl flex flex-col">
+
+                    <div class="mx-5 my-4 text-lg font-semibold flex flex-row items-center">
+                        <ion-icon class="px-3" name="mail-outline"></ion-icon>
+                        Messages
+                    </div>
+
+                    <div class="flex flex-col items-center w-80">
+                        <div class="text-sm flex flex-row bg-indigo-50 items-center h-8 
+                        rounded-3xl w-64">
+                            <ion-icon name="search-outline" class="text-2xl mx-2"></ion-icon>
+                            <input type="search" class="w-64 bg-transparent" placeholder="search messages">
+                        </div>
+                    </div>
+
+                    <!--Messages-->
+                    <div class="flex flex-col items-center my-3 overflow-scroll overflow-x-hidden">
+                        <ul>
+
+                            <!--Message 1-->
+                            <li class="flex flex-row items-center px-1 py-3 w-64 mx-3 hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer rounded-xl">
+
+                                <div class="w-10 rounded-full overflow-hidden">
+                                    <img class="aspect-square block w-full" src="images/robert.jpg">
+                                </div>
+                                <div class="px-2 mx-2 w-40">
+                                    <h4 class="font-semibold text-sm">Robert</h4>
+                                    <h4 class="text-xs truncate">Hey! How are you doing?</h4>
+                                </div>
+                            </li>
+
+                            <!--Message 2-->
+                            <li class="flex flex-row items-center px-1 py-3 w-64 mx-3 hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer rounded-xl">
+
+                                <div class="w-10 rounded-full overflow-hidden">
+                                    <img class="aspect-square block w-full" src="images/Elizabeth-Olsen.webp">
+                                </div>
+                                <div class="px-2 mx-2 w-40">
+                                    <h4 class="font-semibold text-sm">Elizabeth</h4>
+                                    <h4 class="text-xs truncate">Are you excited for Multiverse of Madness?</h4>
+                                </div>
+                            </li>
+
+                            <!--Message 3-->
+                            <li class="flex flex-row items-center px-1 py-3 w-64 mx-3 hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer rounded-xl">
+
+                                <div class="w-10 rounded-full overflow-hidden">
+                                    <img class="aspect-square block w-full" src="images/tom-holland.jpg">
+                                </div>
+                                <div class="px-2 mx-2 w-40">
+                                    <h4 class="font-semibold text-sm">Tom</h4>
+                                    <h4 class="text-xs truncate">Uncharted blew up</h4>
+                                </div>
+                            </li>
+
+                            <!--Message 4-->
+                            <li class="flex flex-row items-center px-1 py-3 w-64 mx-3 hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer rounded-xl">
+
+                                <div class="w-10 rounded-full overflow-hidden">
+                                    <img class="aspect-square block w-full" src="images/emma-stone-ftr.jpg">
+                                </div>
+                                <div class="px-2 mx-2 w-40">
+                                    <h4 class="font-semibold text-sm">Emma</h4>
+                                    <h4 class="text-xs truncate">Hope you win the Oscars</h4>
+                                </div>
+                            </li>
+
+                            <!--Message 5-->
+                            <li class="flex flex-row items-center px-1 py-3 w-64 mx-3 hover:bg-neutral-100 active:bg-neutral-200 w-56 cursor-pointer rounded-xl">
+
+                                <div class="w-10 rounded-full overflow-hidden">
+                                    <img class="aspect-square block w-full" src="images/charlie.jpg">
+                                </div>
+                                <div class="px-2 mx-2 w-40">
+                                    <h4 class="font-semibold text-sm">Charlie</h4>
+                                    <h4 class="text-xs truncate">Working on No Way Home was so cool</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!--Friend Requests-->
+                <div class="w-80 h-80 bg-white my-10 rounded-xl flex flex-col">
+                    <div class="my-4 mx-5 text-lg font-semibold flex flex-row items-center">
+                        <ion-icon class="mx-3" name="person-add-outline"></ion-icon>Friend Request
+                    </div>
+                    <div class="flex flex-col items-center mb-8 overflow-scroll overflow-x-hidden">
+                        <ul>
+
+                            <!--Request 1-->
+                            <li class="flex flex-col items-center w-64 bg-indigo-50 rounded-xl m-4">
+                                <div class="flex flex-row items-center">
+                                    <div class="w-10 rounded-full overflow-hidden">
+                                        <img class="aspect-square block w-full" src="images/jake.jpg">
+                                    </div>
+                                    <div class="px-2 mx-2 w-40 my-4">
+                                        <h4 class="font-semibold text-sm">Jake Gyllenhaal</h4>
+                                        <h4 class="text-xs truncate">3 mutual friends</h4>
+                                    </div>
+                                </div>
+                                <div class="w-56 my-3 flex flex-row items-center">
+                                    <button class="mx-2 bg-indigo-500 px-6 py-2 rounded-3xl text-white font-bold text-sm hover:bg-indigo-600
+                                active:bg-indigo-700">Accept</button>
+                                    <button class="mx-2 bg-neutral-300 px-6 py-2 text-sm rounded-3xl text-black font-bold hover:bg-neutral-400
+                                active:bg-neutral-500">Decline</button>
+                                </div>                               
+                            </li>
+
+                            <!--Request 2-->
+                            <li class="flex flex-col items-center w-64 bg-indigo-50 rounded-xl m-4">
+                                <div class="flex flex-row items-center px-6">
+                                    <div class="w-10 rounded-full overflow-hidden">
+                                        <img class="aspect-square block w-full" src="images/tobey.jpg">
+                                    </div>
+                                    <div class="px-2 mx-2 w-40 my-4">
+                                        <h4 class="font-semibold text-sm">Tobey Maguire</h4>
+                                        <h4 class="text-xs truncate">5 mutual friends</h4>
+                                    </div>
+                                </div>
+                                <div class="w-56 my-3 flex flex-row items-center">
+                                    <button class="mx-2 bg-indigo-500 px-6 py-2 rounded-3xl text-white font-bold text-sm hover:bg-indigo-600
+                                active:bg-indigo-700">Accept</button>
+                                    <button class="mx-2 bg-neutral-300 px-6 py-2 text-sm rounded-3xl text-black font-bold hover:bg-neutral-400
+                                active:bg-neutral-500">Decline</button>
+                                </div>                               
+                            </li>
+
+                            <!--Request 3-->
+                            <li class="flex flex-col items-center w-64 bg-indigo-50 rounded-xl m-4">
+                                <div class="flex flex-row items-center px-6">
+                                    <div class="w-10 rounded-full overflow-hidden">
+                                        <img class="aspect-square block w-full" src="images/hardy-getty2.webp">
+                                    </div>
+                                    <div class="px-2 mx-2 w-40 my-4">
+                                        <h4 class="font-semibold text-sm">Tom Hardy</h4>
+                                        <h4 class="text-xs truncate">2 mutual friends</h4>
+                                    </div>
+                                </div>
+                                <div class="w-56 my-3 flex flex-row items-center">
+                                    <button class="mx-2 bg-indigo-500 px-6 py-2 rounded-3xl text-white font-bold text-sm hover:bg-indigo-600
+                                active:bg-indigo-700">Accept</button>
+                                    <button class="mx-2 bg-neutral-300 px-6 py-2 text-sm rounded-3xl text-black font-bold hover:bg-neutral-400
+                                active:bg-neutral-500">Decline</button>
+                                </div>                               
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
